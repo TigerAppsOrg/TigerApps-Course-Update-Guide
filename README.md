@@ -3,12 +3,8 @@ Once per semester, as soon as possible following the release of the next semeste
 
 # TigerSnatch
 ## Update course data
-1. In your browser, navigate to https://tigersnatch.com/admin.
-    * You must be listed as an Admin of TigerSnatch in order to access this page. To gain admin access, email nicholaspad@gmail.com. Note that only the TigerApps chair and/or lead developers will be granted access.
-2. In the Admin Tools table, locate the first row, labeled "Update to Latest Term (current: xxxx)".
-3. Click the red "Update" button. Read and accept the warning prompts.
-    * After performing this step, TigerSnatch will go into maintenance mode for a few minutes, and come back online updated to the new term. All existing Subscriptions, among other user data, will be cleared.
-    * **Verify** that TigerSnatch has updated to the new term by checking that the term code shown in the first row of the Admin Tools table is correct.
+1. TigerSnatch will automatically update to the new term within 15 minutes of new courses being released.
+    * **Verify** that TigerSnatch has updated to the new term by going to https://tigersnatch.com/dashboard and checking that the new term is shown in the status indicator (upper left), and checking that searching for a course works.
 
 ## Add new notifications intervals (if necessary)
 1. After TigerSnatch exits maintenance mode, head back to the Admin Tools table. Locate the second row, labeled "Modify Notifications Schedule".
