@@ -7,13 +7,12 @@ Once per semester, as soon as possible following the release of the next semeste
     * **Verify** that TigerSnatch has updated to the new term by going to https://tigersnatch.com/dashboard and checking that the new term is shown in the status indicator (upper left), and checking that searching for a course works.
 
 ## Add new notifications intervals (if necessary)
-1. After TigerSnatch exits maintenance mode, head back to the Admin Tools table. Locate the second row, labeled "Modify Notifications Schedule".
-2. Click the yellow "G-Sheet" button. This Google Sheet controls when TigerSnatch sends notifications for open spots.
+1. Click the yellow "G-Sheet" button in the TigerSnatch Admin table. This Google Sheet controls when TigerSnatch sends notifications for open spots.
     * You must be given access to this Google Sheet. To gain access, email nicholaspad@gmail.com. Note that only the TigerApps chair and/or lead developers will be granted access.
-3. **Carefully** read the instructions in the sheet titled "README".
-4. Switch to the sheet titled "Data" and enter new datetime intervals (if already added, verify that they are correct) for each course enrollment period and the add/drop period for the next semester.
+2. **Carefully** read the instructions in the sheet titled "README".
+3. Switch to the sheet titled "Data" and enter new datetime intervals (if already added, verify that they are correct) for each course enrollment period and the add/drop period for the next semester.
     * Make sure to add a comment in the far-right column for each datetime interval entry.
-5. Wait 10 minutes. TigerSnatch will poll this sheet automatically during that time.
+4. Wait 10 minutes. TigerSnatch will poll this sheet automatically during that time.
     * **Verify** that the new datetime intervals have registered by hovering over the "status" badge in the upper left of the TigerSnatch website. The last sentence should begin with "Next notifications period:".
 
 Contact nicholaspad@gmail.com and shannon.heh@princeton.edu if you need help or if you have questions about any of these steps.
@@ -42,11 +41,9 @@ Contact nicholaspad@gmail.com, shannon.heh@princeton.edu, and ca9@princeton.edu 
 2. Define the following environment variables through the Terminal (e.g. using `$ conda env config vars set <key>=<val>`):
     * `CONSUMER_KEY=<MobileApp API consumer key>`
     * `CONSUMER_SECRET=<MobileApp API consumer secret>`
-    * Obtain these values from the Config Vars section in the PrincetonCourses production web panel in Heroku (go to the Settings tab).
-3. Install the Python `requests` library:
-```
-$ pip install requests
-```
+    * Obtain these values from the production Config Vars section as well.
+3. Install the Python `requests` library (e.g. via `pip`).
+
 ### Perform update
 1. Execute the below command in the PrincetonCourses source code root directory.
 ```
