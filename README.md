@@ -19,8 +19,8 @@ Contact nicholaspad@gmail.com and shannon.heh@princeton.edu if you need help or 
 
 # ReCal
 ## Update course data
-1. Update wording on the main page, update list of active term codes, and set the current term code.
-    * **Example commit**: https://github.com/PrincetonUSG/recal/pull/11/commits/5e855b2605e4c05deadfc0d3b4555418d1ffce51
+1. Update list of active term codes and set the current term code.
+    * **Example commit**: https://github.com/PrincetonUSG/ReCal/pull/16/commits/2fbb4ad6de19234e07532f63b4c08916f68b8f60
     * In `settings/common.py`, remove the leftmost term code and append the new term code to `ACTIVE_TERMS`. `ACTIVE_TERMS` should contain the **3** latest term codes, including the new term code, and `CURR_TERM` should be set to the new term code.
 2. Open and merge the pull request after it is approved.
 3. Wait 24 hours. ReCal will perform a course update in the background during that time.
