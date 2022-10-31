@@ -1,8 +1,8 @@
 # TigerApps Course Update Guide
 
-Once per semester, as soon as possible following the release of the next semester's courses, **TigerSnatch**, **ReCal**, and **PrincetonCourses** must be updated to allow students to plan their courses. Follow the steps below to update each of these three apps.
-
 # TL;DR
+
+Once per semester:
 
 ReCal and TigerPath update automatically. Just manually verify that the apps contain the latest courses and/or reflect the new term name (e.g. Spring '23).
 
