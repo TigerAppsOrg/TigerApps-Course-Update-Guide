@@ -2,6 +2,14 @@
 
 Once per semester, as soon as possible following the release of the next semester's courses, **TigerSnatch**, **ReCal**, and **PrincetonCourses** must be updated to allow students to plan their courses. Follow the steps below to update each of these three apps.
 
+# TL;DR
+
+ReCal and TigerPath update automatically. Just manually verify that the apps contain the latest courses and/or reflect the new term name (e.g. Spring '23).
+
+TigerSnatch updates course data automatically, but new notification intervals may need to be appended to its spreadsheet. See the [relevant section](#add-new-notifications-intervals-if-necessary) below for steps. Also manually verify that the app contains the latest courses.
+
+PrincetonCourses updates course data automatically, but the course evaluations script must be run manually. See the [relevant section](#update-course-evaluations) below for steps. Also manually verify that the app contains the latest courses.
+
 # TigerSnatch
 
 ## Update course data
@@ -12,7 +20,7 @@ Once per semester, as soon as possible following the release of the next semeste
 ## Add new notifications intervals (if necessary)
 
 1. Click the yellow "G-Sheet" button in the TigerSnatch Admin table. This Google Sheet controls when TigerSnatch sends notifications for open spots.
-   - You must be given access to this Google Sheet. To gain access, email nicholaspad@gmail.com. Note that only the TigerApps chair and/or lead developers will be granted access.
+   - You must be given access to this Google Sheet. To gain access, email nicholaspad@gmail.com.
 2. **Carefully** read the instructions in the sheet titled "README".
 3. Switch to the sheet titled "Data" and enter new datetime intervals (if already added, verify that they are correct) for each course enrollment period and the add/drop period for the next semester.
    - Make sure to add a comment in the far-right column for each datetime interval entry.
