@@ -33,13 +33,8 @@ Contact nicholaspad@princeton.edu and shannon.heh@princeton.edu if you need help
 
 ## Update course data
 
-1. Update list of active term codes and set the current term code.
-   - In `settings/common.py`, remove the first term code and append the new term code to `ACTIVE_TERMS`. `ACTIVE_TERMS` should contain only the **2** latest term codes, including the new term code, and `CURR_TERM` should be set to the new term code.
-2. Open and merge the pull request after it is approved. Or push to `master` if it's urgent, but carefully check the commit.
-3. Wait 24 hours. ReCal will perform a course update in the background during that time.
+1. ReCal will automatically update to the new term within 24 hours of new courses being released.
    - **Verify** that ReCal has updated to the new term by going to https://recal.io and checking that the new term has been added to the tab bar, the old one has been removed, and that searching for a course works.
-
-Contact nicholaspad@princeton.edu, shannon.heh@princeton.edu, and ca9@princeton.edu if you need help or if you have questions about any of these steps.
 
 # PrincetonCourses
 
@@ -72,8 +67,6 @@ $ node importers/scrapeEvaluations.js
 2. Follow the instructions printed by the script. Specifically, you'll need to retrieve a cookie value that allows for CAS authentication. After this, when prompted for a MongoDB query, just press enter (which tells the script to scrape all courses).
 3. Let the script complete (takes about 30 minutes).
    - **Verify** that new evaluations were scraped by searching for a course (e.g. COS126) on PrincetonCourses and checking that evaluations from the previous term were added.
-
-Contact nicholaspad@princeton.edu, shannon.heh@princeton.edu, and ca9@princeton.edu if you need help or if you have questions about any of these steps.
 
 # Contacts
 
