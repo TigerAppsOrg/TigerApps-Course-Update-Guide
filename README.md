@@ -10,6 +10,8 @@ TigerSnatch updates course data automatically, but new notification intervals ma
 
 PrincetonCourses updates course data automatically, but the course evaluations script must be run manually. See the [relevant section](#update-course-evaluations) below for steps. Also manually verify that the app contains the latest courses.
 
+See the [contacts section](#contacts) if you need help.
+
 # TigerSnatch
 
 ## Update course data
