@@ -20,14 +20,14 @@ PrincetonCourses updates course data automatically, but the course evaluations s
 ## Add new notifications intervals (if necessary)
 
 1. Click the yellow "G-Sheet" button in the TigerSnatch Admin table. This Google Sheet controls when TigerSnatch sends notifications for open spots.
-   - You must be given access to this Google Sheet. To gain access, email nicholaspad@gmail.com.
+   - You must be given access to this Google Sheet. To gain access, email nicholaspad@princeton.edu.
 2. **Carefully** read the instructions in the sheet titled "README".
 3. Switch to the sheet titled "Data" and enter new datetime intervals (if already added, verify that they are correct) for each course enrollment period and the add/drop period for the next semester.
    - Make sure to add a comment in the far-right column for each datetime interval entry.
 4. Wait 10 minutes. TigerSnatch will poll this sheet automatically during that time.
    - **Verify** that the new datetime intervals have registered by hovering over the "status" badge in the upper left of the TigerSnatch website. The last sentence should begin with "Next notifications period:".
 
-Contact nicholaspad@gmail.com and shannon.heh@princeton.edu if you need help or if you have questions about any of these steps.
+Contact nicholaspad@princeton.edu and shannon.heh@princeton.edu if you need help or if you have questions about any of these steps.
 
 # ReCal
 
@@ -39,7 +39,7 @@ Contact nicholaspad@gmail.com and shannon.heh@princeton.edu if you need help or 
 3. Wait 24 hours. ReCal will perform a course update in the background during that time.
    - **Verify** that ReCal has updated to the new term by going to https://recal.io and checking that the new term has been added to the tab bar, the old one has been removed, and that searching for a course works.
 
-Contact nicholaspad@gmail.com, shannon.heh@princeton.edu, and ca9@princeton.edu if you need help or if you have questions about any of these steps.
+Contact nicholaspad@princeton.edu, shannon.heh@princeton.edu, and ca9@princeton.edu if you need help or if you have questions about any of these steps.
 
 # PrincetonCourses
 
@@ -73,10 +73,11 @@ $ node importers/scrapeEvaluations.js
 3. Let the script complete (takes about 30 minutes).
    - **Verify** that new evaluations were scraped by searching for a course (e.g. COS126) on PrincetonCourses and checking that evaluations from the previous term were added.
 
-Contact nicholaspad@gmail.com, shannon.heh@princeton.edu, and ca9@princeton.edu if you need help or if you have questions about any of these steps.
+Contact nicholaspad@princeton.edu, shannon.heh@princeton.edu, and ca9@princeton.edu if you need help or if you have questions about any of these steps.
 
 # Contacts
 
-- **Nicholas Padmanabhan** - nicholaspad@gmail.com
+- **Nick Padmanabhan** - nicholaspad@princeton.edu
 - **Shannon Heh** - shannon.heh@princeton.edu
-- **Charles An** - ca9@princeton.edu
+- **Adam Gamba** - agamba@princeton.edu
+- **Ben Chan** - bychan@princeton.edu
