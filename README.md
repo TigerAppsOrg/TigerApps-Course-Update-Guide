@@ -8,7 +8,7 @@ ReCal and TigerPath update automatically. Just manually verify that the apps con
 
 TigerSnatch updates course data automatically, but new notification intervals may need to be appended to its spreadsheet. See the [relevant section](#add-new-notifications-intervals-if-necessary) below for steps. Also manually verify that the app contains the latest courses.
 
-PrincetonCourses updates course data automatically, but the course evaluations script must be run manually. See the [relevant section](#update-course-evaluations) below for steps. Also manually verify that the app contains the latest courses.
+PrincetonCourses updates course data automatically, but the course evaluations script must be run manually for the new term. See the [relevant section](#update-course-evaluations) below for steps. Also manually verify that the app contains the latest courses.
 
 See the [contacts section](#contacts) if you need help.
 
@@ -66,7 +66,7 @@ Contact nicholaspad@princeton.edu and shannon.heh@princeton.edu if you need help
 $ node importers/scrapeEvaluations.js
 ```
 
-2. Follow the instructions printed by the script. Specifically, you'll need to retrieve a cookie value that allows for CAS authentication. After this, when prompted for a MongoDB query, just press enter (which tells the script to scrape all courses).
+2. Follow the instructions printed by the script. Specifically, you'll need to retrieve a cookie value that allows for CAS authentication. After this, when prompted for a MongoDB query, enter: `{"semester": xxxx}` where `xxxx` is the new term code (e.g. 1232).
 3. Let the script complete (takes about 30 minutes).
    - **Verify** that new evaluations were scraped by searching for a course (e.g. COS126) on PrincetonCourses and checking that evaluations from the previous term were added.
 
