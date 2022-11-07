@@ -23,8 +23,8 @@ See the [contacts section](#contacts) if you need help.
 
 ## Add new notifications intervals (if necessary)
 
-1. Click the yellow "G-Sheet" button in the TigerSnatch Admin table. This Google Sheet controls when TigerSnatch sends notifications for open spots.
-   - You must be given access to this Google Sheet. To gain access, email nicholaspad@princeton.edu.
+1. Go to [this Google Sheet](https://docs.google.com/spreadsheets/d/1iSWihUcWa0yX8MsS_FKC-DuGH75AukdiuAigbSkPm8k/), which controls when TigerSnatch sends notifications for open spots. The sheet is also accessible from the TigerSnatch Admin panel.
+   - You must be given edit access. To gain access, email nicholaspad@princeton.edu.
 2. **Carefully** read the instructions in the sheet titled "README".
 3. Switch to the sheet titled "Data" and enter new datetime intervals (if already added, verify that they are correct) for each course enrollment period and the add/drop period for the next semester.
    - Make sure to add a comment in the far-right column for each datetime interval entry.
