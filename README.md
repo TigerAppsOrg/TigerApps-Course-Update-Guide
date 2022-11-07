@@ -2,7 +2,9 @@
 
 # TL;DR
 
-Once per semester:
+Note that it make take some time for each app to reflect new courses on its frontend due to the way things are cached.
+
+**Once per semester:**
 
 ReCal and TigerPath update automatically. Just manually verify that the apps contain the latest courses and/or reflect the new term name (e.g. Spring '23).
 
