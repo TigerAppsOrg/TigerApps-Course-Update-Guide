@@ -68,7 +68,7 @@ Contact nicholaspad@princeton.edu and shannon.heh@princeton.edu if you need help
 $ node importers/scrapeEvaluations.js
 ```
 
-2. Follow the instructions printed by the script. Specifically, you'll need to retrieve a cookie value that allows for CAS authentication. After this, when prompted for a MongoDB query, enter: `{"semester": xxxx}` where `xxxx` is the new term code (e.g. 1232).
+2. Follow the instructions printed by the script. Specifically, you'll need to retrieve a cookie value that allows for CAS authentication. After this, when prompted for a MongoDB query, enter: `{"semester": xxxx}` where `xxxx` is the term code you want to get reviews from (e.g. 1224), typically 1-2 semesters ago.
 3. Let the script complete (takes about 30 minutes).
    - **Verify** that new evaluations were scraped by searching for a course (e.g. COS126) on PrincetonCourses and checking that evaluations from the previous term were added.
 
