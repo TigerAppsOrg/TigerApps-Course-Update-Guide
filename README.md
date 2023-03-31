@@ -46,7 +46,6 @@ Contact nicholaspad@princeton.edu and shannon.heh@princeton.edu if you need help
 
 1. PrincetonCourses will automatically update to the new term within 24 hours of new courses being released.
    - **Verify** that PrincetonCourses has updated to the new term by going to https://princetoncourses.com and checking that the new term has been added to the "Semester" dropdown, and checking that searching for a course works.
-   - If you don't see the new term, then increment the `HEROKU_RELEASE_VERSION` value in Heroku config vars. This should force the cache to refresh. You can check that the newest term is in the DB by visting https://princetoncourses.com/api/semesters?v=HEROKU_RELEASE_VERSION.
 
 ## Update course evaluations
 
