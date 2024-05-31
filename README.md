@@ -6,7 +6,7 @@ Note that it make take some time for each app to reflect new courses on its fron
 
 **Once per semester:**
 
-ReCal and TigerPath update automatically. Just manually verify that the apps contain the latest courses and/or reflect the new term name (e.g. Spring '23).
+TigerPath updates automatically. Just manually verify that it contains the latest courses and/or reflect the new term name (e.g. Spring '25).
 
 TigerSnatch updates course data automatically, but new notification intervals may need to be appended to its spreadsheet. See the [relevant section](#add-new-notifications-intervals-if-necessary) below for steps. Also manually verify that the app contains the latest courses.
 
@@ -31,14 +31,11 @@ See the [contacts section](#contacts) if you need help.
 4. Wait 10 minutes. TigerSnatch will poll this sheet automatically during that time.
    - **Verify** that the new datetime intervals have registered by hovering over the "status" badge in the upper left of the TigerSnatch website. The last sentence should begin with "Next notifications period:".
 
-Contact nicholaspad@princeton.edu and shannon.heh@princeton.edu if you need help or if you have questions about any of these steps.
-
-# ReCal
+# TigerJunction
 
 ## Update course data
 
-1. ReCal will automatically update to the new term within 24 hours of new courses being released.
-   - **Verify** that ReCal has updated to the new term by going to https://recal.io and checking that the new term has been added to the tab bar, the old one has been removed, and that searching for a course works.
+Follow the instructions in the [TigerJunction Update Guide](https://github.com/TigerAppsOrg/tiger-junction/blob/main/UPDATE_GUIDE.md).
 
 # PrincetonCourses
 
@@ -73,12 +70,8 @@ $ node importers/scrapeEvaluations.js
    - **Verify** that new evaluations were scraped by searching for a course (e.g. COS126) on PrincetonCourses and checking that evaluations from the previous term were added.
 
 # Contacts
+Contact the following if you need help or if you have questions:
 
-- **Nick Padmanabhan** - nicholaspad@princeton.edu
-- **Shannon Heh** - shannon.heh@princeton.edu
-- **Adam Gamba** - agamba@princeton.edu
-- **Ben Chan** - bychan@princeton.edu
-- **Daniel Park** - jungp@princeton.edu 
-- **Taylor Yamashita** - taylory@princeton.edu
-- **Adam Kelch** - akelch@princeton.edu
-- **Youngseo Lee** - youngseo@princeton.edu 
+- **General** - it.admin@tigerapps.org
+- **Joshua Lau** - motoaki@princeton.edu
+- **Leo Stepanewk** - leo.stepanewk@princeton.edu
