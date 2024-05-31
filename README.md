@@ -31,14 +31,11 @@ See the [contacts section](#contacts) if you need help.
 4. Wait 10 minutes. TigerSnatch will poll this sheet automatically during that time.
    - **Verify** that the new datetime intervals have registered by hovering over the "status" badge in the upper left of the TigerSnatch website. The last sentence should begin with "Next notifications period:".
 
-Contact motoaki@princeton.edu and leo.stepanewk@princeton.edu if you need help or if you have questions about any of these steps.
-
 # TigerJunction
 
 ## Update course data
 
-1. ReCal will automatically update to the new term within 24 hours of new courses being released.
-   - **Verify** that ReCal has updated to the new term by going to https://recal.io and checking that the new term has been added to the tab bar, the old one has been removed, and that searching for a course works.
+Follow the instructions in the [TigerJunction Update Guide](https://github.com/TigerAppsOrg/tiger-junction/blob/main/UPDATE_GUIDE.md).
 
 # PrincetonCourses
 
@@ -73,6 +70,8 @@ $ node importers/scrapeEvaluations.js
    - **Verify** that new evaluations were scraped by searching for a course (e.g. COS126) on PrincetonCourses and checking that evaluations from the previous term were added.
 
 # Contacts
+Contact the following if you need help or if you have questions:
+
 - **General** - it.admin@tigerapps.org
 - **Joshua Lau** - motoaki@princeton.edu
 - **Leo Stepanewk** - leo.stepanewk@princeton.edu
